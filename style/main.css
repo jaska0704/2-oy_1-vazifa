@@ -1,0 +1,370 @@
+@font-face {
+    font-family: mono;
+    src: url(../../fonts/Digital7Italic-BW658.ttf);
+}
+
+.vazifa1 {
+  background-color: rgb(246, 242, 245);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  height: 600px;
+  width: 600px;
+}
+
+.vazifa_item1 {
+  background-color: rgb(93, 152, 170);
+  padding: 10px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(222, 255, 6);
+}
+
+.itemC {
+  grid-column: 2/4;
+  grid-row: 2/4;
+  background-color: #98de02;
+}
+
+.itemA {
+  background-color: #00dd98;
+}
+.itemB {
+  background-color: #df9704;
+}
+.itemD {
+  background-color: #9c00df;
+}
+.itemE {
+  background-color: #d9029d;
+}
+.itemA {
+  background-color: #0198df;
+}
+
+.vazifa2 {
+  margin-top: 50px;
+  background-color: rgb(246, 242, 245);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  height: 600px;
+  width: 600px;
+}
+
+.vazifa_item2 {
+  background-color: #28ace3;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+.item1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  background-color: #0071bd;
+}
+
+.item2,
+.item3 {
+  background-color: #29acde;
+}
+
+.item4 {
+  grid-column: 3/5;
+  grid-row: 2/3;
+  background-color: #04a99c;
+}
+
+.item9 {
+  grid-column: 3/5;
+  grid-row: 3/5;
+  background-color: #0071bd;
+}
+
+.vazifa3 {
+  margin-top: 50px;
+  background-color: rgb(246, 242, 245);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  height: 600px;
+  width: 1000px;
+}
+
+.vazifa_item3 {
+  background-color: #28ace3;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.blocA1 {
+  grid-column: 1/2;
+  grid-row: 1/8;
+  background-color: #fe6263;
+}
+
+.blocA2 {
+  grid-column: 2/5;
+  grid-row: 1/3;
+  background-color: #fe6263;
+}
+.blocA3 {
+  grid-column: 2/3;
+  grid-row: 3/7;
+  background-color: #fe6263;
+}
+.blocA4 {
+  grid-column: 3/4;
+  grid-row: 3/7;
+  background-color: #fe6263;
+}
+.blocA5 {
+  grid-column: 4/5;
+  grid-row: 3/5;
+  background-color: #fe6263;
+}
+.blocA6 {
+  grid-column: 4/5;
+  grid-row: 5/7;
+  background-color: #fe6263;
+}
+.blocA7 {
+  grid-column: 2/5;
+  grid-row: 7/8;
+  background-color: #fe6263;
+}
+
+.vazifa4 {
+  margin-top: 50px;
+  background-color: rgb(246, 242, 245);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  height: 600px;
+  width: 1400px;
+}
+
+.vazifa_item4 {
+  background-color: #28ace3;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.blocB1 {
+  background-color: #c9316a;
+}
+
+.blocB2 {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  background-color: #c9319d;
+}
+
+.blocB3 {
+  grid-row: 1/5;
+  width: 18rem;
+  background-color: #ed6f63;
+}
+
+.blocB4 {
+  background-color: #efc437;
+}
+
+.blocB5 {
+  background-color: #538c45;
+}
+
+.blocB6 {
+  background-color: #267d87;
+}
+
+.blocB7 {
+  background-color: #78992a;
+}
+
+.blocB8 {
+  width: 9.5rem;
+  background-color: #478755;
+}
+
+.blocB9 {
+  width: 31rem;
+  background-color: #30c7c1;
+}
+
+.blocB10 {
+  background-color: #31c990;
+}
+
+.blocB11 {
+  grid-column: 1/4;
+  grid-row: 4/5;
+  background-color: #534078;
+}
+
+.blocB11 {
+  background-color: #dd212f;
+}
+
+.vazifa5 {
+  margin-top: 50px;
+  background-color: rgb(246, 242, 245);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  /* grid-column-gap: 15px;
+  grid-row-gap: 10px; */
+  height: 600px;
+  width: 1400px;
+}
+
+.vazifa_item5 {
+  background-color: #28ace3;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.blocC5 {
+  grid-row: 2/4;
+  background-color: #4c6085;
+}
+.blocC6 {
+  grid-column: 2/4;
+  background-color: #30312b;
+}
+.blocC7 {
+  grid-column: 4/5;
+  grid-row: 2/4;
+  background-color: #4c6085;
+}
+.blocC1 {
+  background-color: #30312b;
+}
+.blocC2 {
+  background-color: #39a0ed;
+}
+.blocC3 {
+  background-color: #15c4a3;
+}
+.blocC4 {
+  background-color: #30312b;
+}
+.blocC8 {
+  background-color: #39a0ed;
+}
+.blocC9 {
+  background-color: #15c4a3;
+}
+
+.grid-container {
+  margin-top: 60px;
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  height: 800px;
+  width: 800px;
+}
+
+.grid_items {
+  background-color: rgb(82, 87, 88);
+  padding: 10px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: "Play", sans-serif;
+  font-family: "Poppins", sans-serif; */
+  font-family: mono;
+  font-size: 40px;
+  color: rgb(249, 249, 247);
+}
+
+.litem1 {
+  grid-column: 1/5;
+  background-color: black;
+  padding-left: 700px;
+  padding-top: 70px;
+}
+
+.litem2 {
+  grid-column: 1/3;
+  background-color: red;
+}
+
+.litem18 {
+  grid-column: 1/3;
+}
+
+.litem17 {
+  grid-column: 4/5;
+  grid-row: 5/7;
+  background-color: #014463;
+}
+
+.vazifa6 {
+  margin-top: 50px;
+  background-color: rgb(246, 242, 245);
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  height: 600px;
+  width: 1400px;
+}
+
+.vazifa_item6 {
+  background-color: #dae328;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  color: rgb(7, 7, 7);
+  font-size: 20px;
+}
+
+.blocD1 {
+    grid-column: 1/4;
+}
+
+.blocD2 {
+    grid-row: 2/4;
+}
+
+.blocD5 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
